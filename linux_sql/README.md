@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 tree
 +-- README.md
 +-- assets #store images for README.md
@@ -8,4 +9,7 @@ tree
 +-- sql
     +-- ddl.sql
     +-- queries.sql
+=======
+
+>>>>>>> feature/creating-DDL
 
