@@ -1,14 +1,15 @@
-#! bin/bash
+#! /bin/bash
 psql_host=$1
 psql_port=$2
 db_name=$3
 psql_user=$4
 psql_password=$5
-if [ $# -ne 5 ]; then
-  echo "Invalid number of arguments passed in the shell script."
+if [ $# -ne 5 ]; 
+then
+  echo "Invalid number of arguments."
   exit 1
 fi
-
+lscpu_out=$(lscpu)
 vmdata=$(vmstat --unit M)
 hostname=$(hostname -f)
 memory_free=$(echo "$vmdata" | awk '{print $4}'| tail -1)
@@ -18,7 +19,11 @@ disk_io=$(vmstat -d | awk '{print $10}'| tail -1)
 disk_available=$(df -BM /| awk '{print $2}'| tail -1|tr -dc '0-9')
 timestamp=$(vmstat -t |awk '{print $18,$19}'| tail -1)
 
-insert_stmt="INSERT INTO host_info(id,hostname,cpu_number,cpu_architecture,cpu_model,cpu_mhz,L2_cache,timestamp) VALUES('$hostname','$cpu_number','$cpu_architecture','$cpu_model','$cpu_mhz','$L2_cache','$timestamp')"
+insert_stmt="INSERT INTO host_usage
+(timestamp,host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available)
+ VALUES
+('$timestamp','$host_id','$memory_free','$cpu_idle','$cpu_kernel','$disk_io','$disk_available')"
+
 export PGPASSWORD=$psql_password
-psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+psql -ih $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 exit $?
