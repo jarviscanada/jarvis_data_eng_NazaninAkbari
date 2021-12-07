@@ -4,26 +4,36 @@ psql_port=$2
 db_name=$3
 psql_user=$4
 psql_password=$5
-if [ $# -ne 5 ]; 
+if [ $# -ne 5 ];
 then
   echo "Invalid number of arguments."
   exit 1
 fi
+#This instruction Saves machine statistics in MB and current machine hostname to a variable.
 lscpu_out=$(lscpu)
-vmdata=$(vmstat --unit M)
+vmstat_mb=$(vmstat --unit M)
+df_out=$(df -BM /)
 hostname=$(hostname -f)
-memory_free=$(echo "$vmdata" | awk '{print $4}'| tail -1)
-cpu_idle=$(echo "$vmdata"| awk '{print $15}'| tail -1)
-cpu_kernel=$(echo "$vmdata"| awk '{print $14}'| tail -1)
-disk_io=$(vmstat -d | awk '{print $10}'| tail -1)
-disk_available=$(df -BM /| awk '{print $2}'| tail -1|tr -dc '0-9')
-timestamp=$(vmstat -t |awk '{print $18,$19}'| tail -1)
 
-insert_stmt="INSERT INTO host_usage
-(timestamp,host_id,memory_free,cpu_idle,cpu_kernel,disk_io,disk_available)
- VALUES
-('$timestamp','$host_id','$memory_free','$cpu_idle','$cpu_kernel','$disk_io','$disk_available')"
+#These instructions retrieves the hardware specifications.
+memory_free=$(echo "$vmstat_mb" | awk '{print $4 }' | sed -n 3p)
+cpu_idle=$(echo "$vmstat_mb" | awk 'NR==3 {print $15 }' | xargs)
+cpu_kernel=$(echo "$vmstat_mb" | awk '{print $14}' | sed -n 3p)
+disk_io=$(echo "$(vmstat -d)" | awk '{print 10}' | sed -n 3p)
+disk_available=$(echo "$df_out" | awk '{print $4}' | sed -n 2p | sed 's/.$//')
+
+#time in the UTC format: eg: `2019-11-26 14:40:19`
+timestamp="$(date '+%Y-%m-%d %H:%M:%S')"
+
+#PSQL command: creates a command to insert server usage data into host_usage table.
+insert_statement="INSERT INTO host_usage
+          (timestamp,host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
+          VALUES
+          ('$timestamp',(SELECT id FROM host_info WHERE hostname='$hostname'), $memory_free, $cpu_idle, $cpu_kernel, $disk_io, $disk_available)"
+
 
 export PGPASSWORD=$psql_password
-psql -ih $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
+
+#Inserts the data into a host_usage table
+psql -h "$psql_host" -p "$sql_port" -U "$psql_user" -d "$db_name" -c "$insert_statement"
 exit $?
