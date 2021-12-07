@@ -1,4 +1,4 @@
-\c host_agent
+\c host_agent;
 CREATE TABLE IF NOT EXISTS PUBLIC.host_info
   (
      id               SERIAL NOT NULL, 
@@ -23,6 +23,6 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
      disk_available   INT NOT NULL,
      CHECK (cpu_idle BETWEEN 0 AND 100),
      CHECK (cpu_kernel BETWEEN 0 AND 100),
-     FOREIGN KEY (host_id) REFERNCES host_info(id)
+     FOREIGN KEY (host_id) REFERENCES host_info(id)
 );
 
