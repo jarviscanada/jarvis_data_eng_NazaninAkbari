@@ -27,4 +27,4 @@ insert_stmt="INSERT INTO host_info
 
 export PGPASSWORD=$psql_password
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
--- INSERT --                                                                         19,1          Top
+exit $?
