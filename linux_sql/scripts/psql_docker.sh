@@ -36,9 +36,9 @@ docker volume create pgdata
 
 #check if CLI has valid arguments, else exit with error
   if [ $# -ne 3 ]; then
-    echo 'Create requires username and password'
-    exit 1
-  fi
+      echo 'Create requires username and password'
+      exit 1
+    fi
 
 #create a container using psql image with name=jrvs-psq
 docker run --name jrvs-psql -e POSTGRES_PASSWORD="${db_password}" -e POSTGRES_USER="${db_username}" -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
