@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #! /bin/sh
 
 #capture CLI arguments (please do not copy comments)
@@ -54,3 +55,8 @@ case $cmd in
 	exit 1
 	;;
 esac 
+=======
+#!/bin/bash
+
+echo "hello world"
+>>>>>>> 7765127aaed45fd2ed6d911a0308e5eb39443507
