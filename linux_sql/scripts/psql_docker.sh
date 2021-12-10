@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#! /bin/sh
+#!/bin/bash
 
 #capture CLI arguments (please do not copy comments)
 cmd=$1
@@ -14,26 +13,35 @@ sudo systemctl status docker || systemctl start docker
 docker container inspect jrvs-psql
 container_status=$?
 
-#User switch case to handle create|stop|start opetions
+#process the arguments
 case $cmd in 
   create)
-  
-  # Check if the container is already created
+
+# Ensure there are three arguemnts
+ if [ $# -ne 3 ]; then
+   echo 'additional username or password is required'
+   exit 1
+ fi
+#Get the image
+docker pull postgres:9-alpine
+
+#Create container
+docker volume create pgdata
+
+# Check if the container is already created
   if [ $container_status -eq 0 ]; then
 		echo 'Container already exists'
 		exit 1	
 	fi
 
-  #check if CLI has valid arguments, else exit with error
+#check if CLI has valid arguments, else exit with error
   if [ $# -ne 3 ]; then
     echo 'Create requires username and password'
     exit 1
   fi
-  
-  #Create container
-	docker volume create pgdata
-#create a container using psql image with name=jrvs-psql
-	docker run --name jrvs-psql -e POSTGRES_PASSWORD=$password -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
+
+#create a container using psql image with name=jrvs-psq
+docker run --name jrvs-psql -e POSTGRES_PASSWORD="${db_password}" -e POSTGRES_USER="${db_username}" -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
 	exit $?
 	;;
 
@@ -54,9 +62,4 @@ case $cmd in
 	echo 'Commands: start|stop|create'
 	exit 1
 	;;
-esac 
-=======
-#!/bin/bash
-
-echo "hello world"
->>>>>>> 7765127aaed45fd2ed6d911a0308e5eb39443507
+esac
