@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 In this Linux-SQL project, the Jarvis Linux Cluster Administration (LCA) want to record the hardware specification of 10 servers running CentOS7 which are connected to each other throughout a switch. The data are recorded in real-time each minute in an RDBMS. In this way, the Jarvis Linux Cluster Administration (LCA) can manage the resource usage of each node and make it optimize and efficient in future.
 The technologies that are used in this project are:
@@ -36,7 +36,7 @@ host_info.sh psql_host psql_port db_name psql_user psql_password
 host_info.sh psql_host psql_port psql_name psql_user psql_password
 ```
 - Configure the Linux server's CRON program to execute the script:
-####Edit crontab file
+#### Edit crontab file
 ```bash
 crontab -e
 ```
@@ -45,13 +45,13 @@ crontab -e
 ```bash
 * * * * * bash <your path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 ```
-#Implementation
+# Implementation
 In this part, architecture, database modeling and scripts are described.
 ##Architecture
 The architecture of the project is shown in the following diagram.
 ...
 
-##Scripts
+## Scripts
 In this part, some scripts which are used in project are mentioned.
 Psql_docker.sh
 This command create the docker container to run the Postgres database.
