@@ -67,10 +67,10 @@ The following command stop the Docker.
 psql_docker.sh stop
 ```
 
-###host_info.sh
+### host_info.sh
 The following script, collect the memory and CPU information of host and send it to Postgres database. This command should be executed before host_usage.sh and just for one time.
 
-###Usage
+### Usage
 By the following command we can insert hardware specifications to the Postgres database.
 ```bash
 host_info.sh psql_host psql_port db_name psql_user psql_password
@@ -78,26 +78,26 @@ host_info.sh psql_host psql_port db_name psql_user psql_password
 
 The psql_host is the Postgres host which runs the database, psql_port is the port that Postgres server is listening to it,db_name is the database name which is host_agent, psql_user and psql_password are username and password when we want to create the database.
 
-###Host_usage.sh
+### Host_usage.sh
 In this part, the memory and CPU information and disk usage of host are recorded every minute.
 
-###Usage
+### Usage
 By following command, we can insert the usage information of node to Postgres database.
 ```bash
 host_info.sh psql_host psql_port psql_name psql_user psql_password
 ```
 The psql_host is the Postgres host which runs the database, psql_port is the port that Postgres server is listening to it,db_name is the database name which is host_agent, psql_user and psql_password are username and password when we want to create the database.
 
-###Crontab
+### Crontab
 The Cron is used to monitor the host usage information every minute.
 
-###Usage
+### Usage
 The following steps are used to configure the Linux server's CRON program to execute the script. The Cron file should be created to call the script every minute.
-###Edit crontab file
+### Edit crontab file
 ```bash
 crontab -e
 ```
-###Cron file
+### Cron file
 ```bash
 * * * * * bash <your path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 ```
@@ -106,7 +106,7 @@ crontab -e
 ```bash
   psql -h localhost -U postgres -d host_agent -f queries.sql  
 ```
-##Database modeling
+## Database modeling
 The Host agent database contains host_info and host_usage tables.
 ###Host_info
 The host_info table contains following hardware information of each Linux node.
@@ -114,7 +114,7 @@ The host_info table contains following hardware information of each Linux node.
 ### host_usage
 The table stores the host usage information of each node. The host_usage table contains following usage information of each server. 
 
-##Test
+## Test
 Jarvis remote desktop is running on Google Cloud Platform which is running CentOs7. The testing and developing of bash script were done on Jarvis Remote desktop. This server has a docker running Postgres database. By the scripts we can send the information to database.
 ## Deployment
 All scripts were deployed from the Jarvis Remote Desktop to a GitHub repository. The Postgres docker was created and used as the database.
