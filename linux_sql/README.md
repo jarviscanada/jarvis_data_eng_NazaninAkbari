@@ -53,7 +53,7 @@ The architecture of the project is shown in the following diagram.
 
 ## Scripts
 In this part, some scripts which are used in project are mentioned.
-Psql_docker.sh
+### Psql_docker.sh
 This command create the docker container to run the Postgres database.
 ```bash
 psql_docker.sh create psql_username psql_password
