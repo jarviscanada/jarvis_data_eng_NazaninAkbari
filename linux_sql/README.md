@@ -47,7 +47,7 @@ crontab -e
 ```
 # Implementation
 In this part, architecture, database modeling and scripts are described.
-##Architecture
+## Architecture
 The architecture of the project is shown in the following diagram.
 ...
 
