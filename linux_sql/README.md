@@ -49,7 +49,8 @@ crontab -e
 In this part, architecture, database modeling and scripts are described.
 ## Architecture
 The architecture of the project is shown in the following diagram.
-...
+
+![Diagram](https://user-images.githubusercontent.com/71785631/146416813-f13726ad-d266-4edb-8b8a-621fdef31040.png)
 
 ## Scripts
 In this part, some scripts which are used in project are mentioned.
