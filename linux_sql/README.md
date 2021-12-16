@@ -124,6 +124,16 @@ The host_info table contains following hardware information of each Linux node.
 
 ### host_usage
 The table stores the host usage information of each node. The host_usage table contains following usage information of each server. 
+| Column | Type |	Description |
+| :---: | :---: | :---: |
+| timestamp | TIMESTAMP |	Timestamp records when data is added to the database |
+| host_id |	INTEGER |	This is the foreign key of the id from the host_info table. It shows the node id where the data comes, from the host_info table|
+| memory_free |	INTEGER |	The amount of memory free |
+| cpu_idle |	INTEGER	| The amount of the idle CPU |
+| cpu_kernel |	INTEGER |	The percentage of CPU usage of the kernel |
+| disk_io	| INTEGER	| The amount of disk I/O |
+| disk_available |	INTEGER	| The free disk space |
+
 
 ## Test
 Jarvis remote desktop is running on Google Cloud Platform which is running CentOs7. The testing and developing of bash script were done on Jarvis Remote desktop. This server has a docker running Postgres database. By the scripts we can send the information to database.
