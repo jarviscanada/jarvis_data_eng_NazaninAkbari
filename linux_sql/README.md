@@ -113,7 +113,7 @@ The host_info table contains following hardware information of each Linux node.
 |Column|Type|Description|
 | :---: | :---: | :---: |
 |id	|SERIAL	|This column is the primary key|
-
+| :---: | :---: | :---: |
 |hostname|VARCHAR|The name of the Linux server and Unique|
 
 |cpu_numbe|INTEGER|The number of CPUs in the node|
