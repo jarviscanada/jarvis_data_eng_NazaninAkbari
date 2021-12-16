@@ -11,9 +11,7 @@ CREATE FUNCTION RoundTimeStamp(ts timestamp) RETURNS timestamp AS
 $ $ 
 BEGIN 
         RETURN date_trunc('hour', ts) + date_part('minute', ts) :: int / 5 * interval '5 min';
-
 END;
-
 $ $ 
 LANGUAGE PLPGSQL;
 
