@@ -114,19 +114,12 @@ The host_info table contains following hardware information of each Linux node.
 | :---: | :---: | :---: |
 |id	|SERIAL	|This column is the primary key|
 | hostname | VARCHAR | The name of the Linux server and Unique |
-
 | cpu_number | INTEGER | The number of CPUs in the node |
-
 | cpu_architecture | VARCHAR | The architecture of CPU in the node |
-
 | cpu_model | VARCHAR | The CPU model in the server |
-
 | cpu_mhz | REAL | The CPU clock speed in the server |
-
 | L2_cache | INTEGER | The L2 cache size of the CPU in the node |
-
 | total_mem | INTEGER | The total memory in the server |
-
 | timestamp | TIMESTAMP | Timestamp records when data is added to the database |
 
 ### host_usage
