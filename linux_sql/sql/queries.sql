@@ -21,8 +21,7 @@ LANGUAGE PLPGSQL;
 SELECT
     host_id, hostInfo.hostname,
     RoundTimeStamp(hostUsage.timestamp) AS timestamp,
-    cast(
-        AVG((hostInfo.total_mem - hostUsage.memory_free) * 100 / total_mem) AS int) avg_used_mem_percentage
+    cast(AVG((hostInfo.total_mem - hostUsage.memory_free) * 100 / total_mem) AS int) avg_used_mem_percentage
 from host_info hostInfo
     inner join host_usage hostUsage on hostInfo.id = hostUsage.host_id
 group by RoundTimeStamp(hostUsage.timestamp), host_id, hostname;
