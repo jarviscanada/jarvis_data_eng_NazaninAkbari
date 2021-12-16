@@ -103,7 +103,7 @@ crontab -e
 * * * * * bash <your path>/host_usage.sh psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 ```
 ## Queries.sql
-
+In this part, sample SQL queries are used to monitor the data. First Query shows all the servers with their total memories and number of CPUs. The second query, shows the average used memmory for each server whithin 5 minutes interval. The last Query detects the server failure if within 5 minutes interval, it inserts less than three data points.
 ```bash
   psql -h localhost -U postgres -d host_agent -f queries.sql  
 ```
