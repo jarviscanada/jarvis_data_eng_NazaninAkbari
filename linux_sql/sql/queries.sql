@@ -1,7 +1,6 @@
 -- Group hosts by hardware info
 select
-    cpu_number, id as host_id,
-    total_mem
+    cpu_number, id as host_id, total_mem
 from host_info
 group by cpu_number, id
 order by total_mem DESC;
@@ -10,7 +9,7 @@ order by total_mem DESC;
 CREATE FUNCTION RoundTimeStamp(ts timestamp) RETURNS timestamp AS 
 $ $ 
 BEGIN 
-        RETURN date_trunc('hour', ts) + date_part('minute', ts) :: int / 5 * interval '5 min';
+     RETURN date_trunc('hour', ts) + date_part('minute', ts) :: int / 5 * interval '5 min';
 END;
 $ $ 
 LANGUAGE PLPGSQL;
