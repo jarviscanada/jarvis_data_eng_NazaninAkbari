@@ -127,7 +127,8 @@ The table stores the host usage information of each node. The host_usage table c
 | Column | Type |	Description |
 | :---: | :---: | :---: |
 | timestamp | TIMESTAMP |	Timestamp records when data is added to the database |
-| host_id |	INTEGER |	This is the foreign key of the id from the host_info table. It shows the node id where the data comes, from the host_info table|
+| host_id |	INTEGER |	This is the foreign key of the id from the host_info table. 
+It shows the node id where the data comes, from the host_info table|
 | memory_free |	INTEGER |	The amount of memory free |
 | cpu_idle |	INTEGER	| The amount of the idle CPU |
 | cpu_kernel |	INTEGER |	The percentage of CPU usage of the kernel |
