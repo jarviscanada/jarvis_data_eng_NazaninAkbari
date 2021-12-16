@@ -37,7 +37,7 @@ GROUP BY host_usage.timestamp, host_id, hostname, total_mem;
 -- Detect host failure
 SELECT DISTINCT
     host_id,
-    round5(host_usage.timestamp) AS time_stamp,
+    round5(host_usage.timestamp) AS time_stamps,
     COUNT(*) AS data_points
 FROM host_usage
-GROUP BY time_stamp, host_id HAVING COUNT(*) <= 3;
+GROUP BY time_stamps, host_id HAVING COUNT(*) <= 3;
