@@ -26,6 +26,21 @@
     {
       "description": "Designed an Airline Reservation System application which enables the customers to search and book the flights in general. The project has been designed in C# technology and consists of a SQL server as the database of the project.",
       "name": "Website for Airline reservation system"
+    },
+    {
+      "description": "Designed Snake game using Python. The snake game has a snake that you can control it by using your keyboard to grab the food. It grows in length as uses food. You have to make sure that you don't end up getting tangled or hitting the wall and the goal is to eat as much food as you can while staying alive.",
+      "git_url": "https://github.com/Na-zi/Projects/tree/main/snake_game",
+      "name": "Snake game"
+    },
+    {
+      "description": "Designed Pong game using Python. It's basically just a ball that's going across a table and two players each control a paddle bouncing the ball back and forth. If you miss the ball, then the other player scores a point.",
+      "git_url": "https://github.com/Na-zi/Projects/tree/main/pong-game",
+      "name": "Pong game"
+    },
+    {
+      "description": "Designed Turtle crossing game using Python.The player controls the turtle which can only go forwards, and there's a whole bunch of randomly generated cars which are going horizontally across the screen. Once a player reaches the other side of the screen, the cars speed up, but the player goes back to the starting position, ready to cross the screen again. At some point when the player turtle hits a car, then that is game over.",
+      "git_url": "https://github.com/Na-zi/Projects/tree/main/turtle_crossing",
+      "name": "Turtle crossing game"
     }
   ],
   "jarvis_projects": [
@@ -61,7 +76,7 @@
     },
     {
       "company": "5Azar hospital, Gorgan, Iran",
-      "description": "As a biomedical engineer: I was responsible for eight direct employees, I analyze technical defects and implement data-driven solution with engineering guidance, Prioritizes work load effectively and complete all work assignments in a timely manner, Control my team member hours to hit monthly targets while maintaining above 100% productivity, I always took responsibility of situations and errors of myself or my team members, Insisted on highest standards (I never cut the corners), Eager to learn more and improvement",
+      "description": "As a biomedical engineer, I was responsible for eight direct employees. Analyzing technical defects and implement data-driven solution with engineering guidance, Prioritizing work load effectively and complete all work assignments in a timely manner, Controling my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles. I always took responsibility of situations and errors of myself or my team members and also I Insisted on highest standards (I never cut the corners).",
       "duration": "2016-2018",
       "title": "Biomedical engineer"
     }
