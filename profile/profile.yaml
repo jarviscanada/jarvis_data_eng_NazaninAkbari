@@ -50,6 +50,16 @@ highlighted_projects:
     #URL is optional
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Designed an Airline Reservation System application which enables the customers to search and book the flights in general. The project has been designed in C# technology and consists of a SQL server as the database of the project.
+  - name: "Snake game"
+    git_url: "https://github.com/Na-zi/Projects/tree/main/snake_game"
+    description: Designed Snake game using Python. The snake game has a snake that you can control it by using your keyboard to grab the food. It grows in length as uses food. You have to make sure that you don't end up getting tangled or hitting the wall and the goal is to eat as much food as you can while staying alive.
+  - name: "Pong game"
+    git_url: "https://github.com/Na-zi/Projects/tree/main/pong-game"
+    description: Designed Pong game using Python. It's basically just a ball that's going across a table and two players each control a paddle bouncing the ball back and forth. If you miss the ball, then the other player scores a point.
+  - name: "Turtle crossing game"
+    git_url: "https://github.com/Na-zi/Projects/tree/main/turtle_crossing"
+    description: Designed Turtle crossing game using Python.The player controls the turtle which can only go forwards, and there's a whole bunch of randomly generated cars which are going horizontally across the screen. Once a player reaches the other side of the screen, the cars speed up, but the player goes back to the starting position, ready to cross the screen again. At some point when the player turtle hits a car, then that is game over.
+
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -63,7 +73,13 @@ professional_experience:
   - title: "Biomedical engineer"
     company: "5Azar hospital, Gorgan, Iran"
     duration: "2016-2018"
-    description: "As a biomedical engineer: I was responsible for eight direct employees, I analyze technical defects and implement data-driven solution with engineering guidance, Prioritizes work load effectively and complete all work assignments in a timely manner, Control my team member hours to hit monthly targets while maintaining above 100% productivity, I always took responsibility of situations and errors of myself or my team members, Insisted on highest standards (I never cut the corners), Eager to learn more and improvement"
+    description: "As a biomedical engineer:"
+    - "I was responsible for eight direct employees"
+    - "I analyze technical defects and implement data-driven solution with engineering guidance"
+    - "Prioritizes work load effectively and complete all work assignments in a timely manner"
+    - "Control my team member hours to hit monthly targets while maintaining above 100% productivity"
+    - "I always took responsibility of situations and errors of myself or my team members"
+    - "Insisted on highest standards (I never cut the corners), Eager to learn more and improvement"
 
 #List of edcuation
 education: 
