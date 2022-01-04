@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NazaninAkb
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My bachelor degree is in the field of Biomedical engineering. I have two years of work experience as a biomedical engineer in 5Azar hospital, Gorgan, Iran. I started my master degree at Concordia university, Montreal, QC in 2019. I got my master degree from Concordia university in the field of Electrical Engineering and Computer Science. At Concordia university, I did multiple projects in signal processing, image processing, Hardware verification and designing website for Airline reservation system. In Montreal, I also learned French language, B1 level. I like software industry because this field is incredibly broad. I am passionate to learn new things and expand my knowledge and experience. I love to solve problems and help people to experience a better and easier life.
+summary: My bachelor degree is in the field of Biomedical engineering. I have two years of work experience as a biomedical engineer in 5Azar hospital, Gorgan, Iran. I started my master degree at Concordia university, Montreal, QC in 2019. I got my master degree from Concordia university in the field of Electrical Engineering and Computer Science. At Concordia university, I did multiple projects in signal processing, image processing, Hardware verification and designing an Airline reservation system and I also designed some games. In Montreal, I also learned French language, B1 level. I like software industry because this field is incredibly broad. I am passionate to learn new things and expand my knowledge and experience. I love to solve problems and help people to experience a better and easier life.
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -46,8 +46,8 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Website for Airline reservation system"
-    #URL is optional
+  - name: "Airline reservation system"
+    git_url: "https://github.com/Na-zi/Projects/tree/main/airline-reservation"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Designed an Airline Reservation System application which enables the customers to search and book the flights in general. The project has been designed in C# technology and consists of a SQL server as the database of the project.
   - name: "Snake game"

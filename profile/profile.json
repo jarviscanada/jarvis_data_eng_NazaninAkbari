@@ -25,7 +25,8 @@
   "highlighted_projects": [
     {
       "description": "Designed an Airline Reservation System application which enables the customers to search and book the flights in general. The project has been designed in C# technology and consists of a SQL server as the database of the project.",
-      "name": "Website for Airline reservation system"
+      "git_url": "https://github.com/Na-zi/Projects/tree/main/airline-reservation",
+      "name": "Airline reservation system"
     },
     {
       "description": "Designed Snake game using Python. The snake game has a snake that you can control it by using your keyboard to grab the food. It grows in length as uses food. You have to make sure that you don't end up getting tangled or hitting the wall and the goal is to eat as much food as you can while staying alive.",
@@ -104,5 +105,5 @@
       "Visual Studio"
     ]
   },
-  "summary": "My bachelor degree is in the field of Biomedical engineering. I have two years of work experience as a biomedical engineer in 5Azar hospital, Gorgan, Iran. I started my master degree at Concordia university, Montreal, QC in 2019. I got my master degree from Concordia university in the field of Electrical Engineering and Computer Science. At Concordia university, I did multiple projects in signal processing, image processing, Hardware verification and designing website for Airline reservation system. In Montreal, I also learned French language, B1 level. I like software industry because this field is incredibly broad. I am passionate to learn new things and expand my knowledge and experience. I love to solve problems and help people to experience a better and easier life."
+  "summary": "My bachelor degree is in the field of Biomedical engineering. I have two years of work experience as a biomedical engineer in 5Azar hospital, Gorgan, Iran. I started my master degree at Concordia university, Montreal, QC in 2019. I got my master degree from Concordia university in the field of Electrical Engineering and Computer Science. At Concordia university, I did multiple projects in signal processing, image processing, Hardware verification and designing an Airline reservation system and I also designed some games. In Montreal, I also learned French language, B1 level. I like software industry because this field is incredibly broad. I am passionate to learn new things and expand my knowledge and experience. I love to solve problems and help people to experience a better and easier life."
 }
