@@ -1,64 +1,78 @@
 # Preferred name (Characters only)
-name: "Nazanin Akbari"
+name: "John Smith"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My bachelor degree is in the field of Biomedical engineering. I have two years of work experience as a biomedical engineer in 5Azar hospital, Gorgan, Iran. I started my master degree at Concordia university, Montreal, QC in 2019. I got my master degree from Concordia university in the field of Electrical Engineering and Computer Science. At Concordia university, I did multiple projects in signal processing, image processing, Hardware verification and designing an Airline reservation system and I also designed some games. In Montreal, I also learned French language, B1 level. I like software industry because this field is incredibly broad. I am passionate to learn new things and expand my knowledge and experience. I love to solve problems and help people to experience a better and easier life.
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
     - Java
-    - Python
-    - Google Cloud Platform
     - Linux/Bash
-    - Visual Studio
-
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
   # At least 5 skills
   competent:
-    - Agile/Scrum
-    - RDBMS/SQL
-    - Git
-    - Docker and Containerization
-    - Intellij IDE
-
+    - Donec
+    - fermentum
+    - Donec
+    - fermentum
+    - Donec
   # At least 5 skills
   familiar:
-    - Neural Network
-    - Machine Learning
-    - C#
-    - Azure DevOps
-    - Unit testing
+    - Donec
+    - fermentum
+    - fermentum
+    - fermentum
+    - fermentum
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Linux Cluster Resource Monitoring App"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/linux_sql"
-    description: "Implemented Linux-SQL project, to help Jarvis Linux Cluster Administration (LCA) record the hardware specification of 10 servers running CentOS7 which are connected to each other throughout a switch. The project is implemented by using Bash scripts, Docker containers, Postgres database, and SQL queries."
-
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Airline reservation system"
-    git_url: "https://github.com/Na-zi/Projects/tree/main/airline-reservation"
+  - name: "Web app for resturant"
+    #URL is optional
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Designed an Airline Reservation System application which enables the customers to search and book the flights in general. The project has been designed in C# technology and consists of a SQL server as the database of the project.
-  - name: "Snake game"
-    git_url: "https://github.com/Na-zi/Projects/tree/main/snake_game"
-    description: Designed Snake game using Python. The snake game has a snake that you can control it by using your keyboard to grab the food. It grows in length as uses food. You have to make sure that you don't end up getting tangled or hitting the wall and the goal is to eat as much food as you can while staying alive.
-  - name: "Pong game"
-    git_url: "https://github.com/Na-zi/Projects/tree/main/pong-game"
-    description: Designed Pong game using Python. It's basically just a ball that's going across a table and two players each control a paddle bouncing the ball back and forth. If you miss the ball, then the other player scores a point.
-  - name: "Turtle crossing game"
-    git_url: "https://github.com/Na-zi/Projects/tree/main/turtle_crossing"
-    description: Designed Turtle crossing game using Python.The player controls the turtle which can only go forwards, and there's a whole bunch of randomly generated cars which are going horizontally across the screen. Once a player reaches the other side of the screen, the cars speed up, but the player goes back to the starting position, ready to cross the screen again. At some point when the player turtle hits a car, then that is game over.
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url:
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -67,40 +81,43 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2021-present"
+    duration: "2020-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developed a monitoring system with Postgres database.
-  - title: "Biomedical engineer"
-    company: "5Azar hospital, Gorgan, Iran"
-    duration: "2016-2018"
-    description: "As a biomedical engineer, I was responsible for eight direct employees. Analyzing technical defects and implement data-driven solution with engineering guidance, Prioritizing work load effectively and complete all work assignments in a timely manner, Controling my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles. I always took responsibility of situations and errors of myself or my team members and also I Insisted on highest standards (I never cut the corners)."
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Tutor"
+    company: "XYZ Company"
+    duration: "2019"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
 
 #List of edcuation
 education: 
-  - school_name: "Concordia university"
-    duration: "2019-2021"
-    degree: "Master of Electrical engineering and Computer Science"
+  - school_name: "XYZ university"
+    duration: "2012-2016"
+    degree: "Bachelor of Applied Sciences"
     department: "Electrical and Computer Engineering"
     # optional
     awards_achievements: 
-      - "GPA: 3.6/4.3"
-  - school_name: "Azad university, Tehran, Iran"
-    duration: "2013-2016"
-    degree: "Bachelor of Biomedical Engineering"
+      - "Scholarship"
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "GPA: 3.8/4.0"
+  - school_name: "XYZ university"
+    duration: "2016-2018"
+    degree: "Master of Engineering"
     department: "Electrical and Computer Engineering"
     awards_achievements: 
-      - "Identified as exceptional talent, Azad University, Tehran, Iran (2014)"
-      - "GPA: 3.62/4.3"
-      - "Scholarship"
+
 #Optional section
 others:
     #category
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udemy Scrum certificate (2021)"
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Reading"
-      - "Walking"
-      - "Cooking"
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
