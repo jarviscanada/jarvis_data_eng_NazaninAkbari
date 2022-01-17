@@ -50,4 +50,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NazaninAkb
 ## Miscellaneous
 - Udemy Scrum certificate (2021)
 - Basketball player: Organized basketball games in Takhti club, Gorgan, Iran.
-- Volunteer, Organiser of Competitive games: Designed competitive games for children in Takhti club.
+- Volunteer, Organiser of Competitive games: Managed competitive games among university students in Takhti club, Gorgan, Iran.
