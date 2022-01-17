@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8262f1-168c-41a1-997e-65a9e19665e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarvis_profile_Nazanin_Akbari.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/jarvis_profile_Nazanin_Akbari.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.json" beforeDir="false" afterPath="$PROJECT_DIR$/profile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/profile.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
