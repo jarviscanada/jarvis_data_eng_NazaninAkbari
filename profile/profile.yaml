@@ -57,7 +57,7 @@ highlighted_projects:
     description: Designed an Airline Reservation System application which enables the customers to search and book the flights. This project has been developed in Visual Studio using C# programming language and Microsoft Azure SQL Database is implemented to manage the database on Cloud. The unit test and integration test are done for the system. Managing software development is done by using GitHub. Planning and tracing Scrum processes and activities are done by Microsoft Azure DevOps. Flow diagram and context diagram are used to model different sprints.
   - name: "Snake game"
     git_url: "https://github.com/Na-zi/Projects/tree/main/snake_game"
-    description: Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I break down the problem into different seven steps to solve it.
+    description: Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I broke the problem down into different seven steps to solve it.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -69,7 +69,7 @@ professional_experience:
     duration: "2021-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Collaborated on a Scrum team within an Agile environment as a data engineer. Implemented software projects using a variety of technologies, such as Linux, Java, SQL, Docker, Git, and Google Cloud Platform, to familiarize with current industry trends."
-  - title: "Tutor"
+  - title: "Biomedical Engineer"
     company: "5-Azar hospital, Gorgan, Iran"
     duration: "2016-2018"
     description: "Analyzed technical defects and implement data-driven solution with a team of engineers with engineering guidance. Prioritized workload effectively and complete all work assignments in a timely manner. Managed my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles."
@@ -101,5 +101,5 @@ others:
       - "Udemy Scrum certificate (2021)"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player: Organized basketball games in Takhti club, Gorgan, Iran."
+      - "Volunteer, Organise a social media group to practice French language."
       - "Volunteer, Organiser of Competitive games: Managed competitive games among university students in Takhti club, Gorgan, Iran."

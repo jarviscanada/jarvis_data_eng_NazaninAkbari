@@ -29,7 +29,7 @@
       "name": "Airline reservation system"
     },
     {
-      "description": "Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I break down the problem into different seven steps to solve it.",
+      "description": "Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I broke the problem down into different seven steps to solve it.",
       "git_url": "https://github.com/Na-zi/Projects/tree/main/snake_game",
       "name": "Snake game"
     }
@@ -60,7 +60,7 @@
     },
     {
       "bullets": [
-        "Basketball player: Organized basketball games in Takhti club, Gorgan, Iran.",
+        "Volunteer, Organise a social media group to practice French language.",
         "Volunteer, Organiser of Competitive games: Managed competitive games among university students in Takhti club, Gorgan, Iran."
       ],
       "title": "Activities/Hobbies"
@@ -77,7 +77,7 @@
       "company": "5-Azar hospital, Gorgan, Iran",
       "description": "Analyzed technical defects and implement data-driven solution with a team of engineers with engineering guidance. Prioritized workload effectively and complete all work assignments in a timely manner. Managed my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles.",
       "duration": "2016-2018",
-      "title": "Tutor"
+      "title": "Biomedical Engineer"
     }
   ],
   "skills": {
