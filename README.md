@@ -27,14 +27,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NazaninAkb
 ## Highlighted Projects
 **Airline reservation system** [[GitHub](https://github.com/Na-zi/Projects/tree/main/airline-reservation)]: Designed an Airline Reservation System application which enables the customers to search and book the flights. This project has been developed in Visual Studio using C# programming language and Microsoft Azure SQL Database is implemented to manage the database on Cloud. The unit test and integration test are done for the system. Managing software development is done by using GitHub. Planning and tracing Scrum processes and activities are done by Microsoft Azure DevOps. Flow diagram and context diagram are used to model different sprints.
 
-**Snake game** [[GitHub](https://github.com/Na-zi/Projects/tree/main/snake_game)]: Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I break down the problem into different seven steps to solve it.
+**Snake game** [[GitHub](https://github.com/Na-zi/Projects/tree/main/snake_game)]: Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I broke the problem down into different seven steps to solve it.
 
 
 ## Professional Experiences
 
 **Software Developer, Jarvis (2021-present)**: Collaborated on a Scrum team within an Agile environment as a data engineer. Implemented software projects using a variety of technologies, such as Linux, Java, SQL, Docker, Git, and Google Cloud Platform, to familiarize with current industry trends.
 
-**Tutor, 5-Azar hospital, Gorgan, Iran (2016-2018)**: Analyzed technical defects and implement data-driven solution with a team of engineers with engineering guidance. Prioritized workload effectively and complete all work assignments in a timely manner. Managed my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles.
+**Biomedical Engineer, 5-Azar hospital, Gorgan, Iran (2016-2018)**: Analyzed technical defects and implement data-driven solution with a team of engineers with engineering guidance. Prioritized workload effectively and complete all work assignments in a timely manner. Managed my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles.
 
 
 ## Education
@@ -49,5 +49,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NazaninAkb
 
 ## Miscellaneous
 - Udemy Scrum certificate (2021)
-- Basketball player: Organized basketball games in Takhti club, Gorgan, Iran.
+- Volunteer, Organise a social media group to practice French language.
 - Volunteer, Organiser of Competitive games: Managed competitive games among university students in Takhti club, Gorgan, Iran.
