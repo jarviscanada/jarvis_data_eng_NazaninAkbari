@@ -50,4 +50,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NazaninAkb
 ## Miscellaneous
 - Udemy Scrum certificate (2021)
 - Volunteer, Organise a social media group to practice French language.
-- Volunteer, Organiser of Competitive games: Managed competitive games among university students in Takhti club, Gorgan, Iran.
+- Volunteer, Organiser of Competitive games: Managed competitive games among university students at Concordia University.
