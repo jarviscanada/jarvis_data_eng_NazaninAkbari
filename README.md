@@ -1,14 +1,14 @@
 # Nazanin Akbari . Jarvis Consulting
 
-I am a graduate of Concordia University's software engineering program, and I have recently joined Jarvis as a software and data engineer. During Master's program, I spent two years to develop multiple projects with Matlab, Python and C# in different teams of developers. I am fluent in French language. I love programming and computer science because it is a language that can apply to every facet of life. Software provides significant benefits to everything in our lives, and it's critical to have a deep knowledge of it.
+I graduated from Concordia University's Software Engineering program and recently joined Jarvis as a software and data engineer developing projects using Java 1.8, Maven, Python, Linux/Bash, Git, Docker, and RDBMS. During my Master's program, I spent two years developing multiple projects with Matlab, Python, and C# in different developers. I am fluent in French. I love programming and computer science because it is a language that can apply to every facet of life. My experiences have taught me how to think outside the box when developing software, and I always strive to find the most optimized solution to the problem.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Python, Data Science, Data Structures and Algorithms, Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Docker and Containerization, Intellij IDE, Visual Studio, Google Cloud Platform, REST API
+**Competent:** Pandas, Numpy, Scikit-learn, Docker, IntelliJ, Visual Studio, Google Cloud Platform, REST API
 
-**Familiar:** Neural Network, Machine Learning, C#, Azure DevOps, Unit testing
+**Familiar:** Neural Network, Machine Learning, TensorFlow, C#, Azure DevOps, Unit testing
 
 ## Jarvis Projects
 
@@ -20,19 +20,21 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NazaninAkb
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/java-apps/core_java)]:
       
   -  Twitter App: Currently working on the project.
-  -  JDBC App: Currently working on the project.
-  - Grep App: Implemented Java Grep application which is looking for a regular expression that is searched in each file. I wrote this program in Java, using Streams, Lambda, and RegEx pattern matching, with Maven as the build tool. It is configured to be run as a command line with the JRE installed or via a docker container.
+  -  JDBC App: Implemented basic CRUD operations. This application is a demonstration of the DAO and Repository Design patterns being implemented using JDBC (Java Database Connectivity).
+  - Grep App: Implemented Java Grep application which allows users to search text patterns from a Linux filesystem using core Java, Lambda expression, Maven, IntelliJ, Regex. Application is dockerized in container and pushed to Docker Hub.
+
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/python_data_anlytics)]: Currently working on the project.
 
 
 ## Highlighted Projects
-**Airline reservation system** [[GitHub](https://github.com/Na-zi/Projects/tree/main/airline-reservation)]: Designed an Airline Reservation System application which enables the customers to search and book the flights. This project has been developed in Visual Studio using C# programming language and Microsoft Azure SQL Database is implemented to manage the database on Cloud. The unit test and integration test are done for the system. Managing software development is done by using GitHub. Planning and tracing Scrum processes and activities are done by Microsoft Azure DevOps. Flow diagram and context diagram are used to model different sprints.
+**Airline reservation system** [[GitHub](https://github.com/Na-zi/Projects/tree/main/airline-reservation)]: Designed an Airline Reservation System application that enables customers to search and book the flights using C#.NET, Microsoft Azure SQL, Visual Studio, etc. Tested the system with unit tests and integration tests. Git and Github were used as the version control system. Organized Scrum processes and activities through Microsoft Azure DevOps. Flow diagrams and context diagrams are used to model different sprints.
 
-**Snake game** [[GitHub](https://github.com/Na-zi/Projects/tree/main/snake_game)]: Designed snake game using Python as Object Oriented Language. The snake game has a snake that you can control it by using your keyboard to grab the food. The game is developed in PyCharm. I broke the problem down into different seven steps to solve it.
+**Snake game** [[GitHub](https://github.com/Na-zi/Projects/tree/main/snake_game)]: Designed snake game using Python as Object-Oriented Language. The snake game has a snake that you can control by using your keyboard to grab the food. The game was developed in PyCharm.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2021-present)**: Collaborated on a Scrum team within an Agile environment as a data engineer. Implemented software projects using a variety of technologies, such as Linux, Java, SQL, Docker, Git, and Google Cloud Platform, to familiarize with current industry trends.
+**Software Developer, Jarvis (2021-present)**: Collaborated on a Scrum team within an Agile environment as a data engineer. Implemented software projects using a variety of technologies, such as Linux, Java, SQL, Docker, Git, and Google Cloud Platform.
 
 **Biomedical Engineer, 5-Azar hospital, Gorgan, Iran (2016-2018)**: Analyzed technical defects and implement data-driven solution with a team of engineers with engineering guidance. Prioritized workload effectively and complete all work assignments in a timely manner. Managed my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles.
 
