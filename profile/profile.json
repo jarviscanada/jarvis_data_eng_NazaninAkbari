@@ -29,7 +29,7 @@
       "name": "Airline reservation system"
     },
     {
-      "description": "Designed snake game using Python as Object-Oriented Language. The snake game has a snake that you can control by using your keyboard to grab the food. The game was developed in PyCharm. I broke the problem down into seven different steps to solve it.",
+      "description": "Designed snake game using Python as Object-Oriented Language. The snake game has a snake that you can control by using your keyboard to grab the food. The game was developed in PyCharm.",
       "git_url": "https://github.com/Na-zi/Projects/tree/main/snake_game",
       "name": "Snake game"
     }

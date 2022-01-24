@@ -65,7 +65,7 @@ highlighted_projects:
     description: Designed an Airline Reservation System application that enables customers to search and book the flights using C#.NET, Microsoft Azure SQL, Visual Studio, etc. Tested the system with unit tests and integration tests. Git and Github were used as the version control system. Organized Scrum processes and activities through Microsoft Azure DevOps. Flow diagrams and context diagrams are used to model different sprints.
   - name: "Snake game"
     git_url: "https://github.com/Na-zi/Projects/tree/main/snake_game"
-    description: Designed snake game using Python as Object-Oriented Language. The snake game has a snake that you can control by using your keyboard to grab the food. The game was developed in PyCharm. I broke the problem down into seven different steps to solve it.
+    description: Designed snake game using Python as Object-Oriented Language. The snake game has a snake that you can control by using your keyboard to grab the food. The game was developed in PyCharm.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
