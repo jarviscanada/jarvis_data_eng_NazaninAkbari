@@ -1,9 +1,10 @@
 # Introduction
-(50-100 words)
-Discuss the design of each app. What does the app do? What technologies have you used? (e.g. core java, libraries, lambda, IDE, docker, etc..)
+
 
 # Quick Start
-How to use your apps?
+1. Run the application with docker
+
+2. Run the application with JAR file
 
 #Implemenation
 ## Pseudocode
