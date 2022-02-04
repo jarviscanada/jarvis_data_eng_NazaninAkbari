@@ -11,8 +11,9 @@ In this project, we want to find business solution to increase the revenue of th
 - Monthly placed and cancelled orders are plotted to find the sign of a trend and downward trend. In November 2010 and 2011 we can see the highest rate of the placed order. This trend is also predictable for the following years. The highest rate of cancelled orders has occurred in the two last months of the year.
 ![graph2](https://user-images.githubusercontent.com/71785631/152555655-acc26c62-837e-4857-a462-d7fd10c8323d.png)
 - Plot the monthly sales graph to visualize the rate of growth. 
+![graph3](https://user-images.githubusercontent.com/71785631/152608263-490c9a5e-c6a5-4434-82b3-daa7961472a0.png)
 
-
-
+![graph4](https://user-images.githubusercontent.com/71785631/152609712-235e4f9d-8dfc-4f8e-82b9-e90a23ac0ce4.png)
+- 
 # Deployment
 Jupyter notebook environment is running using docker. Analytic rsult eventually deliver to LGS via Jupyter Notebook and Github. 
