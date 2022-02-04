@@ -23,8 +23,13 @@ total_mem="$(grep MemTotal /proc/meminfo | awk '{print $2}')"
 timestamp="$(date '+%Y-%m-%d %H:%M:%S')"
 
 #inserts the hardware specification to the host_info table
+<<<<<<< HEAD
 insert_statement="insert into host_info (hostname,cpu_number,cpu_architecture,cpu_model,cpu_mhz,l2_cache,total_mem,timestamp)
 values
 ('$hostname',$cpu_number,'$cpu_architecture','$cpu_model','$cpu_mhz','$l2_cache',$total_mem,'$timestamp')"
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_statement"
 
+=======
+insert_statement="insert into host_info (hostname,cpu_number,cpu_architecture,cpu_model,cpu_mhz,l2_cache,total_mem,timestamp)values('$hostname',$cpu_number,'$cpu_architecture','$cpu_model','$cpu_mhz','$l2_cache',$total_mem,'$timestamp')"
+psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_statement"
+>>>>>>> d7fd1aaddec596dc98c627391010bf47c814376d

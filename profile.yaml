@@ -1,0 +1,72 @@
+# Preferred name (Characters only)
+name: "Nazanin Akbari"
+# # Your GitHub repo root URL
+# github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari
+summary: My bachelor degree is in the field of Biomedical engineering. I have two years of work experience as a biomedical engineer in 5Azar hospital, Gorgan, Iran. I started my master degree at Concordia university, Montreal, QC in 2019. I got my master degree from Concordia university in the field of Electrical Engineering and Computer Science. At Concordia university, I did multiple projects in signal processing, image processing, Hardware verification and designing website for Airline reservation system. In Montreal, I also learned French language, B1 level. I like software industry because this field is incredibly broad. I am passionate to learn new things and expand my knowledge and experience. I love to solve problems and help people to experience a better and easier life.
+skills:
+# At least 5 skills
+proficient:
+    - Java
+    - Python
+    - Google Cloud Platform
+    - Linux/Bash
+    - Visual Studio
+  competent:
+    - Agile/Scrum
+    - RDBMS/SQL
+    - Git
+    - Docker and Containerization
+    - Intellij IDE
+  familiar:
+    - Neural Network
+    - Machine Learning
+    - C#
+    - Azure DevOps
+    - Unit testing
+jarvis_projects:
+  - name: "Linux Cluster Resource Monitoring App"
+    git_url:"https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/linux_sql"
+
+   description: Implemented Linux-SQL project, to help Jarvis Linux Cluster Administration (LCA) record the hardware specification of 10 servers running CentOS7 which are connected to each other throughout a switch. The project is implemented by using Bash scripts, Docker containers, Postgres database, and SQL queries.
+highlighted_projects:
+- name: Website for Airline reservation system: Designed an Airline Reservation System application which enables the customers to search and book the flights in general. The project has been designed in C# technology and consists of a SQL server as the database of the project.
+professional_experience:
+ - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+   description: Developed a monitoring system with Postgres database.
+  - title: "Biomedical engineer"
+    company: "5Azar hospital, Gorgan, Iran"
+    duration: "2016-2018"
+   description: As a biomedical engineer:
+- I was responsible for eight direct employees
+- I analyze technical defects and implement data-driven solution with engineering guidance
+- Prioritizes work load effectively and complete all work assignments in a timely manner
+- Control my team member hours to hit monthly targets while maintaining above 100% productivity
+- I always took responsibility of situations and errors of myself or my team members.
+- Insisted on highest standards (I never cut the corners)
+- Eager to learn more and improvement
+education: 
+  - school_name: "Concordia university"
+    duration: "2019-2021"
+    degree: "Master of Electrical Engineering and Computer Science"
+    department: "Electrical and Computer Engineering"
+awards_achievements: 
+- "GPA: 3.6/4.3"
+education: 
+  - school_name: "Azad university, Tehran, Iran"
+    duration: "2013-2016"
+    degree: "Bachelor of Biomedical engineering"
+    department: "Electrical and Computer Engineering"
+awards_achievements:
+- "GPA: 3.65/4.3"
+- "Identified as exceptional talent, Azad University, Tehran, Iran (2014)"
+- "Scholarship"
+others:
+- title: "Certificates"
+- "Udemy Scrum certificate (2021)"
+- "Coursera Machine Learning (2021)"
+- title: "Activities/Hobbies"
+- "Reading"
+- "Running"
+- "Coocking"                                   

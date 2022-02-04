@@ -1,0 +1,112 @@
+# Preferred name (Characters only)
+name: "Nazanin Akbari"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I graduated from Concordia University's Software Engineering program and recently joined Jarvis as a software and data engineer developing projects using Java 1.8, Maven, Python, Linux/Bash, Git, Docker, and RDBMS. During my Master's program, I spent two years developing multiple projects with Matlab, Python, and C# in different teams of developers. I am fluent in French. I love programming and computer science because it is a language that can apply to every facet of life. My experiences have taught me how to think outside of the box when developing software, and I always strive to find the most optimized solution to the problem.
+# Group your skills bI am a graduate of Concordia University's software engineering program, and I have recently joined Jarvis as a software and data engineer. During Master program, I spent two years to develop multiple projects with Matlab, Python and C# in a team of developers. I love programming and computer science because it is a language that can be applied to every facet of y level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - Data Science
+    - Data Structures and Algorithms
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Pandas
+    - Numpy
+    - Scikit-learn
+    - Docker
+    - IntelliJ
+    - Visual Studio
+    - Google Cloud Platform
+  # At least 5 skills
+  familiar:
+    - Neural Network
+    - Machine Learning
+    - TensorFlow
+    - C#
+    - Azure DevOps
+    - Unit testing
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/creating-DDL/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a Linux monitoring agent that allows a user to monitor and store hardware specifications and usage information for multiple Linux systems. The agent employs Bash Scripts to collect machine hardware information, which is then stored in a PostgreSQL database provisioned using Docker. The resource usage is fetched periodically with Crontab, and we can then manipulate the aggregated data using SQL queries.
+  - name: "Core Java Apps"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/java-apps/core_java"
+    description:
+      - " Twitter App: Currently working on the project."
+      - " JDBC App: Implemented basic CRUD operations. This application is a demonstration of the DAO and Repository Design patterns being implemented using JDBC (Java Database Connectivity)."
+      - "Grep App: Implemented Java Grep application which allows users to search text patterns from a Linux filesystem using core Java, Lambda expression, Maven, IntelliJ, Regex. Application is dockerized in container and pushed to Docker Hub."
+  - name: "Python Data Analytics"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/python_data_analytics"
+    description: "Performed data analysis for transaction data reported from LGS to help the marketing team to answer the business questions in order to increase the company's revenue using RFM report. The analysis were conducted using a Jupyter notebook, and Python was used along with libraries such as pandas, matplotlib, numPy and SQLAlchemy. Docker was used to run the Postgres container."
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Airline reservation system"
+    #URL is optional
+    git_url: "https://github.com/Na-zi/Projects/tree/main/airline-reservation"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Designed an Airline Reservation System application that enables customers to search and book the flights using C#.NET, Microsoft Azure SQL, Visual Studio, etc. Tested the system with unit tests and integration tests. Git and Github were used as the version control system. Organized Scrum processes and activities through Microsoft Azure DevOps. Flow diagrams and context diagrams are used to model different sprints.
+  - name: "Snake game"
+    git_url: "https://github.com/Na-zi/Projects/tree/main/snake_game"
+    description: Designed snake game using Python as Object-Oriented Language. The snake game has a snake that you can control by using your keyboard to grab the food. The game was developed in PyCharm.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Collaborated on a Scrum team within an Agile environment as a data engineer. Implemented software projects using a variety of technologies, such as Linux, Python, Java, SQL, Docker, Git, and Google Cloud Platform."
+  - title: "Biomedical Engineer"
+    company: "5-Azar hospital, Gorgan, Iran"
+    duration: "2016-2018"
+    description: "Analyzed technical defects and implement data-driven solution with a team of engineers with engineering guidance. Prioritized workload effectively and complete all work assignments in a timely manner. Managed my team member hours to hit monthly targets while maintaining above 100% productivity are part of my roles."
+
+#List of edcuation
+education: 
+  - school_name: "Concordia university"
+    duration: "2019-2021"
+    degree: "Master of Computer engineering"
+    department: "Electrical and Computer Engineering"
+    # optional
+    awards_achievements:
+      - "GPA: 3.6/4.3"
+  - school_name: "Azad university"
+    duration: "2013-2016"
+    degree: "Bachelor Electrical and Computer Engineering"
+    department: "Electrical and Computer Engineering"
+    awards_achievements:
+      - "Identified as exceptional talent Azad University, Tehran, Iran (2014)"
+      - "GPA: 3.62/4.3"
+      - "Scholarship"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Udemy Scrum certificate (2021)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Volunteer, Organise a social media group to practice French language."
+      - "Volunteer, Organiser of Competitive games: Managed competitive games among university students at Concordia University."

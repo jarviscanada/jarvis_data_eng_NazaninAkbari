@@ -1,3 +1,4 @@
+
 In this Linux-SQL project, the Jarvis Linux Cluster Administration (LCA) want to record the hardware specification of 10 servers running CentOS7 which are connected to each other throughout a switch. The data are recorded in real-time each minute in an RDBMS. In this way, the Jarvis Linux Cluster Administration (LCA) can manage the resource usage of each node and make it optimize and efficient in future.
 The technologies that are used in this project are:
 -	bash scripts (used to gather the hardware specifications, resource usage, and manage docker)
@@ -143,5 +144,4 @@ Improvements for this project can be:
 - The project need a mechanism to update the data.
 - Using a GUI can make it much more user friendly.
 - If the data is not added to database, the system does not show any error. If the database is down or we cannot insert information in database, a system should save it in local server.
-
 
