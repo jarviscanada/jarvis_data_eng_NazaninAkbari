@@ -5,7 +5,7 @@ The technologies that are used in this project are:
 -	Psql (Postgres client program used to administer the Postgres database)
 -	Git (version control software)
 -	Jarvis Remote Desktop (JRD) (development and testing environment running CentOS 7)
--	Google Cloud Platform (GCP) provided the instance to run the JRD
+-	Google Cloud Platform (GCP) provided the instance to run the JRD.
 -	Docker (container running the Postgres database)
 -	IntelliJ IDEA (IDE to edit files)
 ## Quick Start
