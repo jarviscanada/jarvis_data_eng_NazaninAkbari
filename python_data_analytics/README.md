@@ -4,7 +4,7 @@ A UK-based online store called London Gift Shop (LGS) sells gift-ware and most o
 The LGS IT team provides a high-level system design diagram below. Since it's a PoC project, we are not allowed to work in the LGS Azure environment. As per request, the LGS IT team dumped the transaction data between 01/12/2009 and 09/12/2011 into a SQL file, which is shared with the Jarvis team.
 ![Cloud](https://user-images.githubusercontent.com/71785631/152241514-c4d1b56d-c86b-45eb-9046-a9bd9fd6cc76.png)
 # Data Analytics and Wrangling
-The data analysis code is available [here] (https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/blob/master/python_data_analytics/retail_data_analytics_wrangling.ipynb).
+The data analysis code is available [here](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/blob/master/python_data_analytics/retail_data_analytics_wrangling.ipynb).
 In this project, we want to find business solution to increase the revenue of the company. To do so, the data analysis is done as the following steps.
 - The distribution for the first 85 quantiles are plotted to find the outliers.
 ![graph1](https://user-images.githubusercontent.com/71785631/152553547-35db666f-de32-4ba0-8fe5-730ba0e7bf4a.png)
