@@ -40,12 +40,12 @@ skills:
 # List of Jarvis projects
 jarvis_projects:
   - name: "Cluster Monitor"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/creating-DDL/linux_sql"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Developed a Linux monitoring agent that allows a user to monitor and store hardware specifications and usage information for multiple Linux systems. The agent employs Bash Scripts to collect machine hardware information, which is then stored in a PostgreSQL database provisioned using Docker. The resource usage is fetched periodically with Crontab, and we can then manipulate the aggregated data using SQL queries.
   - name: "Core Java Apps"
-    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/java-apps/core_java"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/core_java"
     description:
       - " Twitter App: Currently working on the project."
       - " JDBC App: Implemented basic CRUD operations. This application is a demonstration of the DAO and Repository Design patterns being implemented using JDBC (Java Database Connectivity)."
