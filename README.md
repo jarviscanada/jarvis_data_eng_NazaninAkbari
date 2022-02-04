@@ -15,9 +15,9 @@ I graduated from Concordia University's Software Engineering program and recentl
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/creating-DDL/linux_sql)]: Developed a Linux monitoring agent that allows a user to monitor and store hardware specifications and usage information for multiple Linux systems. The agent employs Bash Scripts to collect machine hardware information, which is then stored in a PostgreSQL database provisioned using Docker. The resource usage is fetched periodically with Crontab, and we can then manipulate the aggregated data using SQL queries.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/linux_sql)]: Developed a Linux monitoring agent that allows a user to monitor and store hardware specifications and usage information for multiple Linux systems. The agent employs Bash Scripts to collect machine hardware information, which is then stored in a PostgreSQL database provisioned using Docker. The resource usage is fetched periodically with Crontab, and we can then manipulate the aggregated data using SQL queries.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/feature/java-apps/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/tree/master/core_java)]:
       
   -  Twitter App: Currently working on the project.
   -  JDBC App: Implemented basic CRUD operations. This application is a demonstration of the DAO and Repository Design patterns being implemented using JDBC (Java Database Connectivity).
