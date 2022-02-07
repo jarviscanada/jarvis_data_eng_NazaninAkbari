@@ -4,15 +4,15 @@ A UK-based online store called London Gift Shop (LGS) sells gift-ware and most o
 The LGS IT team provides a high-level system design diagram below. Since it's a PoC project, we are not allowed to work in the LGS Azure environment. As per request, the LGS IT team dumped the transaction data between 01/12/2009 and 09/12/2011 into a SQL file, which is shared with the Jarvis team.
 ![Cloud](https://user-images.githubusercontent.com/71785631/152241514-c4d1b56d-c86b-45eb-9046-a9bd9fd6cc76.png)
 # Data Analytics and Wrangling
-The data analysis code is available [here] (https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/blob/master/python_data_analytics/retail_data_analytics_wrangling.ipynb).
-In this project, we want to find business solution to increase the revenue of the company. To do so, the data analysis is done as the following steps.
-- The distribution for the first 85 quantiles are plotted to find the outliers.
-![graph1](https://user-images.githubusercontent.com/71785631/152553547-35db666f-de32-4ba0-8fe5-730ba0e7bf4a.png)
-- Monthly placed and cancelled orders are plotted to find the sign of a trend and downward trend. In November 2010 and 2011 we can see the highest rate of the placed order. This trend is also predictable for the following years. The highest rate of cancelled orders has occurred in the two last months of the year.
-![graph2](https://user-images.githubusercontent.com/71785631/152555655-acc26c62-837e-4857-a462-d7fd10c8323d.png)
-- Plot the monthly sales graph to visualize the rate of growth. 
-
-
+The data analysis code is available [here](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/blob/master/python_data_analytics/retail_data_analytics_wrangling.ipynb).
+In this project, we want to find business solution to increase the revenue of the company.
+- To increase the financial growth, the LGS team should assess the habits of new customers. Give them promotions and discounts of popular items to make them loyal. Moreover, the LGS can provide the customers long-term return policy for confident purchase.
+- By analyzing monthly growth, the company can apply new marketing strategy to increase the revenue for the month that there is downward growth.
 
 # Deployment
 Jupyter notebook environment is running using docker. Analytic rsult eventually deliver to LGS via Jupyter Notebook and Github. 
+
+# Improvement
+- Using more recent data and greater sample size would be recommended.
+- Adding more features to the sataset
+- Assessing the items that are being placed and cancelled
