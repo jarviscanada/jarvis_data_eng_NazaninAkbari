@@ -5,15 +5,14 @@ The LGS IT team provides a high-level system design diagram below. Since it's a 
 ![Cloud](https://user-images.githubusercontent.com/71785631/152241514-c4d1b56d-c86b-45eb-9046-a9bd9fd6cc76.png)
 # Data Analytics and Wrangling
 The data analysis code is available [here](https://github.com/jarviscanada/jarvis_data_eng_NazaninAkbari/blob/master/python_data_analytics/retail_data_analytics_wrangling.ipynb).
-In this project, we want to find business solution to increase the revenue of the company. To do so, the data analysis is done as the following steps.
-- The distribution for the first 85 quantiles are plotted to find the outliers.
-![graph1](https://user-images.githubusercontent.com/71785631/152553547-35db666f-de32-4ba0-8fe5-730ba0e7bf4a.png)
-- Monthly placed and cancelled orders are plotted to find the sign of a trend and downward trend. In November 2010 and 2011 we can see the highest rate of the placed order. This trend is also predictable for the following years. The highest rate of cancelled orders has occurred in the two last months of the year.
-![graph2](https://user-images.githubusercontent.com/71785631/152555655-acc26c62-837e-4857-a462-d7fd10c8323d.png)
-- Plot the monthly sales graph to visualize the rate of growth. 
-![graph3](https://user-images.githubusercontent.com/71785631/152608263-490c9a5e-c6a5-4434-82b3-daa7961472a0.png)
+In this project, we want to find business solution to increase the revenue of the company.
+- To increase the financial growth, the LGS team should assess the habits of new customers. Give them promotions and discounts of popular items to make them loyal. Moreover, the LGS can provide the customers long-term return policy for confident purchase.
+- By analyzing monthly growth, the company can apply new marketing strategy to increase the revenue for the month that there is downward growth.
 
-![graph4](https://user-images.githubusercontent.com/71785631/152609712-235e4f9d-8dfc-4f8e-82b9-e90a23ac0ce4.png)
-- 
 # Deployment
 Jupyter notebook environment is running using docker. Analytic rsult eventually deliver to LGS via Jupyter Notebook and Github. 
+
+# Improvement
+- Using more recent data and greater sample size would be recommended.
+- Adding more features to the sataset
+- Assessing the items that are being placed and cancelled
