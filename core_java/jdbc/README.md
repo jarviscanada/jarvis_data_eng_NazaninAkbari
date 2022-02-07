@@ -11,7 +11,7 @@ The purpose of this application is to demonstrate the performance of database CR
 
 # Implementaiton
 ## ER Diagram
-ER diagram
+![ERD_Diagram](https://user-images.githubusercontent.com/71785631/152848621-3f0c7f04-2e5a-479c-b03e-aa5358f1ac50.png)
 
 ## Design Patterns
 The Data Access Object (DAO) design pattern is a structural pattern that isolates the application/business layer from the persistence layer. The API hides from the application all the complexity of performing CRUD operations in the underlying storage mechanism.
